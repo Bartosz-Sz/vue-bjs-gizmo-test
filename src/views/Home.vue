@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <HelloWorld/>
   </div>
 </template>
 
@@ -13,6 +12,16 @@ export default defineComponent({
   name: 'Home',
   components: {
     HelloWorld,
-  },
+  }
 });
 </script>
+
+<style scoped>
+.home {
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+</style>
